@@ -1,0 +1,256 @@
+/* Colors
+##595959
+##A2A1A1
+##111
+##9EA0AE */
+
+body {
+	font-family: "Nanum Gothic", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Nanum Myeongjo", serif;
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+p {
+	color: #fff;
+}
+
+em {
+	color: #fff;
+	font-style: normal;
+}
+
+/* Headings */
+
+.big-heading {
+	font-size: 4.5rem;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #fff;
+}
+
+.section-heading {
+	font-size: 4rem;
+	line-height: 1.5;
+	color: #fff;
+}
+
+/* Containers */
+
+.container-fluid {
+	padding: 7% 15%;
+}
+
+/* Sections */
+
+.black-color {
+	background-color: #000;
+}
+
+.dark-color {
+	background-color: #111;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	padding: 0 0 6.5rem;
+}
+
+.navbar-brand {
+	font-family: "Nanum Myeongjo", serif;
+	font-size: 2rem;
+	font-weight: 500;
+	letter-spacing: normal;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+	font-family: "Nanum Gothic", sans-serif;
+	font-weight: 500;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+	padding: 3% 15% 7%;
+	color: #a2a1a1;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 1) 0,
+			rgba(0, 0, 0, 0) 70%
+		),
+		url(../images/front-bg.jpg);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+/* Order Buttons */
+
+.order-btn {
+	margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Features Section*/
+
+.feature-title {
+	font-size: 2rem;
+	color: #a2a1a1;
+	font-weight: 200;
+}
+
+.feature-box {
+	padding: 4.5%;
+}
+
+.icon {
+	color: #595959;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #a2a1a1;
+}
+
+/* Collections */
+
+.collections-heading {
+	margin-bottom: 1rem;
+}
+
+.zoom-img {
+	overflow: hidden;
+}
+
+.collections-img {
+	transition: ease 0.5s;
+}
+
+.collections-img:hover {
+	transform: scale(1.1);
+}
+
+#collections p {
+	text-align: left;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+	color: #a2a1a1;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonial-img {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press {
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 10%;
+	margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+	padding: 100px;
+}
+
+.price-text {
+	font-size: 2rem;
+	line-height: 1.5;
+	font-weight: 200;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+.card-head {
+	background-color: #000;
+}
+
+.card-h3 {
+	font-size: 3rem;
+	color: #a2a1a1;
+	font-weight: 700;
+}
+
+#pricing p {
+	color: #a2a1a1;
+}
+
+.tier-btn:hover {
+	background-color: #a2a1a1;
+}
+
+/* Call to action */
+
+#cta {
+	color: #595959;
+}
+
+/* Footer */
+
+.footer-p {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.footer-icon {
+	padding: 20px 10px;
+	color: #595959;
+}
+
+.footer-icon:hover {
+	color: #a2a1a1;
+}
+
+/* Media Query */
+
+@media (max-width: 991px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		width: 80%;
+	}
+}
